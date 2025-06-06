@@ -1,0 +1,157 @@
+Quantitative Validation Report
+==============================
+1. Intra-class Consistency (Mean ± Std Dev):
+
+  Feature: sample
+    background: 27.0000 ± 15.3697 (N=106)
+    background_day2: 27.5000 ± 15.6584 (N=108)
+    corona: 54.0000 ± 30.9593 (N=214)
+    hv_bg: 54.0000 ± 30.9593 (N=214)
+    pd: 54.0000 ± 30.9593 (N=214)
+    pd_HI: 53.5000 ± 30.6706 (N=212)
+    pd_corona: 53.5000 ± 30.6706 (N=212)
+    pd_corona_HI: 53.5000 ± 30.6706 (N=212)
+
+  Feature: dominant_freq
+    background: 61354787.8284 ± 80773813.2943 (N=106)
+    background_day2: 47870443.6380 ± 75765397.5603 (N=108)
+    corona: 63118550.2611 ± 81043857.5779 (N=214)
+    hv_bg: 70908500.5328 ± 82608555.2863 (N=214)
+    pd: 73245456.1978 ± 82929006.3504 (N=214)
+    pd_HI: 58209411.6458 ± 79651637.4799 (N=212)
+    pd_corona: 61354733.5770 ± 80582220.3182 (N=212)
+    pd_corona_HI: 52802433.2621 ± 77309538.1467 (N=212)
+
+  Feature: num_peaks
+    background: 0.0000 ± 0.0000 (N=106)
+    background_day2: 0.0000 ± 0.0000 (N=108)
+    corona: 0.0000 ± 0.0000 (N=214)
+    hv_bg: 0.0000 ± 0.0000 (N=214)
+    pd: 0.0000 ± 0.0000 (N=214)
+    pd_HI: 0.0000 ± 0.0000 (N=212)
+    pd_corona: 0.0000 ± 0.0000 (N=212)
+    pd_corona_HI: 0.0000 ± 0.0000 (N=212)
+
+  Feature: rms
+    background: 7.7640 ± 0.0346 (N=106)
+    background_day2: 7.7353 ± 0.0502 (N=108)
+    corona: 7.7824 ± 0.0588 (N=214)
+    hv_bg: 7.7466 ± 0.0422 (N=214)
+    pd: 7.8403 ± 0.0903 (N=214)
+    pd_HI: 7.7175 ± 0.0895 (N=212)
+    pd_corona: 7.8648 ± 0.1567 (N=212)
+    pd_corona_HI: 7.7567 ± 0.1008 (N=212)
+
+  Feature: skewness
+    background: -0.0235 ± 0.0596 (N=106)
+    background_day2: -0.0174 ± 0.0584 (N=108)
+    corona: -0.4776 ± 0.0892 (N=214)
+    hv_bg: -0.0290 ± 0.0652 (N=214)
+    pd: 1.9672 ± 0.4432 (N=214)
+    pd_HI: -0.0186 ± 0.0925 (N=212)
+    pd_corona: 0.8361 ± 0.2815 (N=212)
+    pd_corona_HI: -0.5615 ± 0.1095 (N=212)
+
+  Feature: kurtosis
+    background: 0.0771 ± 0.0707 (N=106)
+    background_day2: 0.0508 ± 0.0487 (N=108)
+    corona: 1.1723 ± 0.1990 (N=214)
+    hv_bg: 0.1488 ± 0.0536 (N=214)
+    pd: 29.6954 ± 8.8320 (N=214)
+    pd_HI: 0.7613 ± 2.1808 (N=212)
+    pd_corona: 22.4535 ± 8.4245 (N=212)
+    pd_corona_HI: 2.0933 ± 0.4163 (N=212)
+
+  Feature: mean
+    background: -7.7170 ± 0.0128 (N=106)
+    background_day2: -7.6830 ± 0.0276 (N=108)
+    corona: -7.7044 ± 0.0169 (N=214)
+    hv_bg: -7.7016 ± 0.0186 (N=214)
+    pd: -7.6989 ± 0.0173 (N=214)
+    pd_HI: -7.6588 ± 0.0540 (N=212)
+    pd_corona: -7.6662 ± 0.0457 (N=212)
+    pd_corona_HI: -7.6642 ± 0.0463 (N=212)
+
+  Feature: median
+    background: -7.7000 ± 0.0000 (N=106)
+    background_day2: -7.7000 ± 0.0000 (N=108)
+    corona: -7.7000 ± 0.0000 (N=214)
+    hv_bg: -7.7000 ± 0.0000 (N=214)
+    pd: -7.7000 ± 0.0000 (N=214)
+    pd_HI: -7.6066 ± 0.1000 (N=212)
+    pd_corona: -7.5991 ± 0.1002 (N=212)
+    pd_corona_HI: -7.6028 ± 0.1002 (N=212)
+
+  Feature: min
+    background: -13.6887 ± 1.9017 (N=106)
+    background_day2: -14.0389 ± 2.1244 (N=108)
+    corona: -15.5542 ± 2.5584 (N=214)
+    hv_bg: -13.7654 ± 2.1804 (N=214)
+    pd: -21.5430 ± 3.9533 (N=214)
+    pd_HI: -22.8245 ± 6.7166 (N=212)
+    pd_corona: -26.5906 ± 5.3016 (N=212)
+    pd_corona_HI: -22.9764 ± 6.5125 (N=212)
+
+  Feature: max
+    background: -1.7151 ± 1.8332 (N=106)
+    background_day2: -1.7130 ± 1.8051 (N=108)
+    corona: -1.2140 ± 2.0624 (N=214)
+    hv_bg: -1.6897 ± 1.9978 (N=214)
+    pd: 17.1075 ± 1.3964 (N=214)
+    pd_HI: 6.7151 ± 6.7076 (N=212)
+    pd_corona: 17.5981 ± 0.2943 (N=212)
+    pd_corona_HI: 7.6208 ± 6.4917 (N=212)
+
+  Feature: std
+    background: 0.8250 ± 0.2208 (N=106)
+    background_day2: 0.8677 ± 0.2356 (N=108)
+    corona: 1.0529 ± 0.3210 (N=214)
+    hv_bg: 0.7986 ± 0.2409 (N=214)
+    pd: 1.4259 ± 0.4168 (N=214)
+    pd_HI: 0.9006 ± 0.3106 (N=212)
+    pd_corona: 1.6828 ± 0.5259 (N=212)
+    pd_corona_HI: 1.1361 ± 0.3792 (N=212)
+
+2. Inter-class Separability:
+  a) ANOVA F-statistic (higher F indicates better separability across all classes):
+    Feature: sample - F-statistic = 21.6904, p-value = 5.013e-28
+    Feature: dominant_freq - F-statistic = 1.9236, p-value = 0.06236
+    Feature: num_peaks - ANOVA skipped (one or more groups have zero variance).
+    Feature: rms - F-statistic = 64.5556, p-value = 2.635e-81
+    Feature: skewness - F-statistic = 3215.0989, p-value = 0
+    Feature: kurtosis - F-statistic = 1300.0772, p-value = 0
+    Feature: mean - F-statistic = 70.6425, p-value = 3.012e-88
+    Feature: median - F-statistic = 115.2457, p-value = 4.278e-135
+    Feature: min - F-statistic = 229.9381, p-value = 1.706e-231
+    Feature: max - F-statistic = 916.1789, p-value = 0
+    Feature: std - F-statistic = 151.2695, p-value = 1.443e-168
+
+  b) Fisher's Discriminant Ratio (higher FDR indicates better separability for the pair):
+    Comparison: corona vs pd
+      Feature: sample - FDR = 0.0000
+      Feature: dominant_freq - FDR = 0.0077
+      Feature: num_peaks - FDR = 0.0000
+      Feature: rms - FDR = 0.2910
+      Feature: skewness - FDR = 29.3853
+      Feature: kurtosis - FDR = 10.4735
+      Feature: mean - FDR = 0.0521
+      Feature: median - FDR = 0.0000
+      Feature: min - FDR = 1.6250
+      Feature: max - FDR = 54.3641
+      Feature: std - FDR = 0.5050
+
+3. Overall Dataset Summary:
+  Total number of samples: 1492
+  Number of unique fault types: 8
+  Samples per fault type:
+fault_type
+hv_bg              214
+corona             214
+pd                 214
+pd_corona          212
+pd_corona_HI       212
+pd_HI              212
+background_day2    108
+background         106
+Name: count, dtype: int64
+
